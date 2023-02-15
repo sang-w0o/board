@@ -3,3 +3,7 @@ spaceone-api
 mongoengine
 boto3
 redis
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-propagator-b3

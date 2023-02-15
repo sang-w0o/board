@@ -18,7 +18,6 @@ spec:
   template:
     metadata:
       annotations:
-        instrumentation.opentelemetry.io/inject-python: "true"
         spaceone.deployment.tool: helm
         spaceone.database-flag: {{ print .Values.database | sha256sum }}
         spaceone.shared-flag: {{ print .Values.global.shared | sha256sum }}
